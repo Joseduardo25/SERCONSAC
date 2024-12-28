@@ -10,7 +10,7 @@ export function Footer() {
     <div className='max-w-5xl mx-auto p-6 mt-10 md:mt-40'>
       <div className='justify-between md:flex'>
         <div>
-          <Image src="/assets/logo.png" width={200} height={40} alt='Logo Bank'/>
+          <Image src="/assets/logo-serconsac.png" width={200} height={40} alt='Logo Bank'/>
           <Reveal>
             <p className='mt-5 text-primaryDark max-w-[250px]'>Una nueva forma de hacer pagos de forma sencilla</p>
           </Reveal>
