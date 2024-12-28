@@ -13,7 +13,7 @@ export const BestBusiness = () => {
         <div>
           <Reveal>
             <h2 className='text-5xl font-semibold'>
-              <span className='block degradedBlue bg-blueLight'>MISIÓN</span>
+              <span className='block degradedBlue bg-blueLight md:mt-3'>MISIÓN</span>
             </h2>
           </Reveal>
           <Reveal>
@@ -22,13 +22,6 @@ export const BestBusiness = () => {
             instalaciones de nuestros clientes y el medio ambiente.
             </p>
           </Reveal>
-          {/* <Reveal>
-            <div className='my-8'>
-              <Link href='#clients' className='px-4 py-3 rounded-md bg-blueRadial'>
-                Elije tu plan
-              </Link>
-            </div>
-          </Reveal> */}
           <Reveal>
             <h2 className='text-5xl font-semibold'>
               <span className='block degradedBlue bg-blueLight'>VISIÓN</span>
@@ -40,23 +33,21 @@ export const BestBusiness = () => {
             líder en servicios y productos para la lucha contra incendios.
             </p>
           </Reveal>
-          {/* <Reveal>
-            <div className='my-8'>
-              <Link href='#clients' className='px-4 py-3 rounded-md bg-blueRadial'>
-                Elije tu plan
-              </Link>
-            </div>
-          </Reveal> */}
         </div>
-        <div className='grid items-center py-5 md:p-8'>
+        <div className='grid items-center py-10 md:px-8 md:py-0'>
+          <Reveal>
+            <h2 className='text-4xl font-semibold'>
+              <span className='block degradedBlue bg-blueLight'>MÁS INFORMACIÓN</span>
+            </h2>
+          </Reveal>
           {
             dataFeaturesBusiness.map(({id, icon, title, description})=>(
               <Reveal key={id}>
                 <div className='grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack'>
                   <Image src={`/assets/${icon}.png`} width={40} height={40} alt='Icon'/>
-                  <div>
+                  <div className='flex items-center justify-center'>
                     <h4 className='text-primary'>{title}</h4>
-                    <p className='text-primaryDark'>{description}</p>
+                    {/* <p className='text-primaryDark'>{description}</p> */}
                   </div>
                 </div>
               </Reveal>
