@@ -13,26 +13,40 @@ export const BestBusiness = () => {
         <div>
           <Reveal>
             <h2 className='text-5xl font-semibold'>
-              <span className='block degradedBlue bg-blueLight'>Tú haces el negocio</span>
-              nosotros manejamos <br/>
-              el dinero
+              <span className='block degradedBlue bg-blueLight'>MISIÓN</span>
             </h2>
           </Reveal>
           <Reveal>
-            <p className='max-w-md mt-10'>
-              Con la tarjeta de crédito adecuada, puede mejorar su vida 
-              financiera generando crédito, obteniendo recompensas y
-              ahorrando dinero. Pero con cientos de tarjetas de crédito en
-              el mercado.
+            <p className='max-w-md mt-4 mb-10'>
+            Brindar servicios de calidad cumpliendo los más altos estándares en protección contra incendio para salvaguardar la vida, 
+            instalaciones de nuestros clientes y el medio ambiente.
             </p>
           </Reveal>
-          <Reveal>
+          {/* <Reveal>
             <div className='my-8'>
               <Link href='#clients' className='px-4 py-3 rounded-md bg-blueRadial'>
                 Elije tu plan
               </Link>
             </div>
+          </Reveal> */}
+          <Reveal>
+            <h2 className='text-5xl font-semibold'>
+              <span className='block degradedBlue bg-blueLight'>VISIÓN</span>
+            </h2>
           </Reveal>
+          <Reveal>
+            <p className='max-w-md mt-4'>
+            Ser una de las principales empresas en desarrollos de proyectos de ingeniería y proveedor 
+            líder en servicios y productos para la lucha contra incendios.
+            </p>
+          </Reveal>
+          {/* <Reveal>
+            <div className='my-8'>
+              <Link href='#clients' className='px-4 py-3 rounded-md bg-blueRadial'>
+                Elije tu plan
+              </Link>
+            </div>
+          </Reveal> */}
         </div>
         <div className='grid items-center py-5 md:p-8'>
           {
