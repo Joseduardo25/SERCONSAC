@@ -1,6 +1,8 @@
 import { BestBusiness } from "@/components/BestBusiness";
 import { ChooseYourCards } from '@/components/ChooseYourCards';
 import { ControlBilling } from '@/components/ControlBilling/ControlBilling';
+import { ControlBillingSecondSection } from '@/components/ControlBilling-second-section/ControlBilling-second-section';
+import { ControlBillingThirdSection } from '@/components/ControlBilling-third-section/ControlBilling-third-section';
 import { CounterData } from '@/components/CounterData';
 import { FirstBlock } from '@/components/FirstBlock';
 import { Footer } from "@/components/Footer/";
@@ -17,6 +19,8 @@ export default function Home() {
       <BestBusiness/>
       <ChooseYourCards/>
       <ControlBilling/>
+      <ControlBillingSecondSection/>
+      <ControlBillingThirdSection/>
       <Testimonials/>
       <PaymentsMethods/>
       <Footer/>
