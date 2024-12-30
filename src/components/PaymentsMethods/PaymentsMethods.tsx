@@ -2,7 +2,6 @@
 import 'swiper/css'
 import { BackgroundRadialRight } from '../BackgroundRadialRight'
 import { Swiper, SwiperSlide } from 'swiper/react'
-// import { dataPaymentMethods } from './PaymentMethods.data'
 import { CustomerData } from './Customers.data'
 import Image from 'next/image'
 import { CtaDark } from '../CtaDark'

@@ -10,6 +10,7 @@ import { Header } from "@/components/Header";
 import { PaymentsMethods } from "@/components/PaymentsMethods";
 import { Testimonials } from '@/components/Testimonials';
 import { ControlBillingFourthSection } from "@/components/ControlBilling-fourth-section";
+import { WhatsappButton } from '@/components/WhatsappButton/WhatsappButton'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Testimonials/>
       <PaymentsMethods/>
       <Footer/>
+      <WhatsappButton/>
     </>
   )
 }
