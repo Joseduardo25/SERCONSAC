@@ -3,16 +3,13 @@ import Image from 'next/image'
 import { MotionTransition } from '../MotionTransition'
 import { Reveal } from '../Reveal'
 
-export const ControlBilling = () => {
+export const ControlBillingFourthSection = () => {
   return (
-    <div className='p-4 py-20 md:py-64'>
+    <div className='p-4 py-5 md:pt-5 md:pb-64'>
       <div className='flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly'>
-        <MotionTransition className='flex-1 p-6 md:p-8'>
-          <Image src='/assets/control-business.png' width={580} height={411} alt='Control billing' className='w-full h-auto'/>
-        </MotionTransition>
         <div className='flex-1 p-6 md:p-8'>
           <Reveal>
-            <h2 className='text-5xl font-semibold'>
+            <h2 className='text-3xl font-semibold'>
               Controla fácilmente
               <span className='block'>tu facturación</span>
             </h2>
@@ -25,6 +22,9 @@ export const ControlBilling = () => {
             </p>
           </Reveal>
         </div>
+        <MotionTransition className='flex-1 p-6 md:p-8'>
+          <Image src='/assets/foam-system.png' width={580} height={411} alt='Control billing' className='w-full h-auto'/>
+        </MotionTransition>
       </div>
     </div>
   )
