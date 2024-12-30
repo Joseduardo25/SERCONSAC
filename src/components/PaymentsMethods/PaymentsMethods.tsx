@@ -2,7 +2,8 @@
 import 'swiper/css'
 import { BackgroundRadialRight } from '../BackgroundRadialRight'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { dataPaymentMethods } from './PaymentMethods.data'
+// import { dataPaymentMethods } from './PaymentMethods.data'
+import { CustomerData } from './Customers.data'
 import Image from 'next/image'
 import { CtaDark } from '../CtaDark'
 
@@ -27,7 +28,7 @@ export function PaymentsMethods() {
                     speed={2000}
                 >
                     <div className="absolute flex">
-                        {dataPaymentMethods.map(({ id, image }) => (
+                        {CustomerData.map(({ id, image }) => (
                             <SwiperSlide key={id} className="flex items-center slider-horizontal">
                                 <Image src={`/assets/${image}`} alt="Payment" width="70" height="70" className="h-[60px] w-[120px] object-contain" />
                             </SwiperSlide>
