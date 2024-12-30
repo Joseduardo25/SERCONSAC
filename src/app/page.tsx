@@ -19,12 +19,12 @@ export default function Home() {
       <FirstBlock/>
       <CounterData/>
       <BestBusiness/>
-      <ChooseYourCards/>
+      {/* <ChooseYourCards/> */}
       <ControlBilling/>
       <ControlBillingSecondSection/>
       <ControlBillingThirdSection/>
       <ControlBillingFourthSection/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <PaymentsMethods/>
       <Footer/>
       <WhatsappButton/>
