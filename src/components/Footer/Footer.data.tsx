@@ -29,11 +29,6 @@ export const footerData = [
       },
       {
         id: 5,
-        name: "Términos y condiciones",
-        link: "#",
-      },
-      {
-        id: 6,
         name: <TermsConditionsDownload/>,
         link: "#",
       },

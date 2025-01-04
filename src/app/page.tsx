@@ -29,7 +29,7 @@ export default function Home() {
       <PaymentsMethods/>
       <Footer/>
       <WhatsappButton/>
-      <TermsConditionsDownload/>
+      {/* <TermsConditionsDownload/> */}
     </>
   )
 }
