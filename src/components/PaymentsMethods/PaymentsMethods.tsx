@@ -5,11 +5,20 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { CustomerData } from './Customers.data'
 import Image from 'next/image'
 import { CtaDark } from '../CtaDark'
+import { Reveal } from '../Reveal'
+
 
 export function PaymentsMethods() {
     return (
         <div className="bg-white relative py-20 md:py-64" id="servicios">
             <BackgroundRadialRight />
+            <div className='mx-auto flex justify-center mb-32'>
+                <Reveal>
+                    <h2 className='text-5xl font-semibold text-black'>
+                        NUESTROS CLIENTES
+                    </h2>
+                </Reveal>
+            </div>
             <div className="relative w-full overflow-hidden">
                 <Swiper
                     breakpoints={{
