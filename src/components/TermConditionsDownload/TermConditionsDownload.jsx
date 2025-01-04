@@ -8,7 +8,7 @@ export function TermsConditionsDownload() {
         Por favor, revisa nuestros{' '}
         <a 
           href="/public/terminos-y-condiciones/POLITICA_DE_SST_SERCONSAC_2024.pdf" 
-          download 
+          download='POLITICA_DE_SST_SERCONSAC_2024.pdf'
           target="_blank" 
           rel="noopener noreferrer"
           style={{ textDecoration: 'underline', color: 'blue' }}
