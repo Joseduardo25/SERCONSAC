@@ -21,11 +21,14 @@ export function Footer() {
               <Reveal>{title}</Reveal>
             </h4>
             {links.map(({id, name, link})=>(
-              <Link key={id} href={link} className='block mt-4 text-primaryDark hover: text-white'>
+              <p 
+                key={id} 
+                // href={link} 
+                className='block mt-4 text-primaryDark hover: text-white'>
                 <Reveal>
                   {name}
                 </Reveal>
-              </Link>
+              </p>
             ))}
           </div>
         ))}

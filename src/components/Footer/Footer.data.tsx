@@ -1,5 +1,7 @@
 import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
 import { Office } from "./componets/office";
+import { TermsConditionsDownload } from "../TermConditionsDownload";
+
 export const footerData = [
   {
     id: 1,
@@ -28,6 +30,11 @@ export const footerData = [
       {
         id: 5,
         name: "Términos y condiciones",
+        link: "#",
+      },
+      {
+        id: 6,
+        name: <TermsConditionsDownload/>,
         link: "#",
       },
     ],
