@@ -7,7 +7,7 @@ export function TermsConditionsDownload() {
       <p>
         Por favor, revisa nuestros{' '}
         <a 
-          href="/terminos-y-condiciones/POLITICA-DE-SST-SERCONSAC-2024.pdf" 
+          href="/public/terminos-y-condiciones/POLITICA_DE_SST_SERCONSAC_2024.pdf" 
           download 
           target="_blank" 
           rel="noopener noreferrer"
