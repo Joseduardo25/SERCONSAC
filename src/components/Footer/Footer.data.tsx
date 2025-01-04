@@ -1,28 +1,28 @@
 import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
-
+import { Office } from "./componets/office";
 export const footerData = [
   {
     id: 1,
-    title: "Links útiles",
+    title: "CONTÁCTENOS",
     links: [
       {
         id: 1,
-        name: "Contenido",
+        name: "(+51) 993 325 074",
         link: "#",
       },
       {
         id: 2,
-        name: "Como trabajamos",
+        name: "consultas@ogserconsac.com",
         link: "#",
       },
       {
         id: 3,
-        name: "Crear",
+        name: "cmedina@ogserconsac.com",
         link: "#",
       },
       {
         id: 4,
-        name: "Explorar",
+        name: <Office/>,
         link: "#",
       },
       {
