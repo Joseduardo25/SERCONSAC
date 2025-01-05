@@ -1,0 +1,9 @@
+.hidden_custom_number:last-child > div{
+  display: none;
+}
+
+.hidden_custom_number:last-child{
+  /* border: solid red; */
+  max-width: 300px;
+  width: 100%;
+}

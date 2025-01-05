@@ -1,20 +1,21 @@
 export const dataCounter = [
   {
     id: 1,
-    startNumber: 500,
-    endNumber: 3000,
-    text: 'usuarios activos',
+    startNumber: 0,
+    endNumber: 500,
+    text: 'Servicios ejecutados',
   },
   {
     id: 2,
     startNumber: 0,
-    endNumber: 230,
-    text: 'empleados',
+    endNumber: 20,
+    text: 'Clientes en el sector hidrocarburos',
   },
   {
     id: 3,
     startNumber: 600,
     endNumber: 1000,
-    text: 'millones invertidos',
+    // text: 'Trabajamos con las principales refinerías de hidrocarburos del país',
+    text: 'Trabajamos con las principales refinerías del Perú',
   }
 ]
