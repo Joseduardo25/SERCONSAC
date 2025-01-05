@@ -10,17 +10,17 @@ export const footerData = [
       {
         id: 1,
         name: "cmedina@ogserconsac.com",
-        link: "#",
+        // link: "#",
       },
       {
         id: 2,
         name: <Office/>,
-        link: "#",
+        // link: "#",
       },
       {
         id: 3,
         name: <TermsConditionsDownload/>,
-        link: "#",
+        // link: "#",
       },
     ],
   },

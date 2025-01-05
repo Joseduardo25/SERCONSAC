@@ -20,7 +20,7 @@ export function Footer() {
             <h4 className='mt-8 text-lg md:mt-0 pt-3'>
               <Reveal>{title}</Reveal>
             </h4>
-            {links.map(({id, name, link})=>(
+            {links.map(({id, name})=>(
               <div 
                 key={id} 
                 // href={link} 
