@@ -7,7 +7,7 @@ export const dataFeaturesBusiness: BestBusinessData = [
     title: "OG-Serconsac",
     description:
       "Las mejores tarjetas de crédito ofrecen algunas combinaciones tentadoras de promociones y premios.",
-    link:"https://www.google.com/",
+    link:"https://www.facebook.com/OGserconsac10",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const dataFeaturesBusiness: BestBusinessData = [
     title: "OG-Serconsac",
     description:
       "Tomamos medidas proactivas para asegurarnos de que su información  y sus transacciones estén seguras.",
-      link:"https://www.google.com/",
+      link:"https://www.linkedin.com/company/og-serconsac/",
     
   },
   {
@@ -24,6 +24,6 @@ export const dataFeaturesBusiness: BestBusinessData = [
     title: "OG-Serconsac",
     description:
       "Una tarjeta de crédito con transferencia de saldo puede ahorrarle mucho dinero en intereses.",
-      link:"https://www.google.com/",
+      link:"https://youtube.com/@og-serconsac-7152?si=jdyTaJKSzUBQIbab",
   },
 ];
