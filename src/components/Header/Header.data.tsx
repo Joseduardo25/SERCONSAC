@@ -7,23 +7,23 @@ export const dataHeader = [
     id: 1,
     name: "SOBRE NOSOTROS",
     // name: <AboutUs/>,
-    idLink: "#features",
+    idLink: "#SOBRE-NOSOTROS",
   },
   {
     id: 2,
     name: "MISIÓN Y VISIÓN",
     // name: <MisionVision/>,
-    idLink: "#tarjetas",
+    idLink: "#MISIÓN-Y-VISIÓN",
   },
   {
     id: 3,
     name: "SERVICIOS",
     // name: <MainServices/>,
-    idLink: "#testimonios",
+    idLink: "#SERVICIOS",
   },
   {
     id: 4,
     name: "NUESTROS CLIENTES",
-    idLink: "#servicios",
+    idLink: "#NUESTROS-CLIENTES",
   },
 ];
