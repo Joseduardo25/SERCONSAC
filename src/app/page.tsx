@@ -28,7 +28,7 @@ export default function Home() {
       {/* <Testimonials/> */}
       <PaymentsMethods/>
       <Footer/>
-      <WhatsappButton/>
+      {/* <WhatsappButton/> */}
       {/* <TermsConditionsDownload/> */}
     </>
   )
