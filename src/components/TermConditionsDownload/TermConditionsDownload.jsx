@@ -5,7 +5,7 @@ export function TermsConditionsDownload() {
     <div>
       <p>
         <a 
-          href="/public/terminos-y-condiciones/POLITICA_DE_SST_SERCONSA_ 2024.pdf"
+          href="/public/terminos-y-condiciones/POLITICA_DE_SST_SERCONSA_2024.pdf"
           download='POLITICA_DE_SST_SERCONSA_ 2024.pdf'
           target="_blank" 
           rel="noopener noreferrer"
