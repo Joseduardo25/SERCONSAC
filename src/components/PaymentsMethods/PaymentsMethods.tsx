@@ -11,7 +11,7 @@ import { Reveal } from '../Reveal'
 export function PaymentsMethods() {
     return (
         <div id="NUESTROS-CLIENTES" className="bg-white relative pt-32 pb-20 md:py-64">
-            <BackgroundRadialRight />
+            {/* <BackgroundRadialRight /> */}
             <div className='mx-auto flex justify-center mb-32 text-center'>
                 <Reveal>
                     <h2 className='text-5xl font-semibold text-black'>

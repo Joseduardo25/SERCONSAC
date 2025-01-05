@@ -7,8 +7,8 @@ import Image from 'next/image'
 
 export const BestBusiness = () => {
   return (
-    <div id="MISIÓN-Y-VISIÓN" className='relative px-6 py-20 md:py-64'>
-      <BackgroundRadialLeft/>
+    <div id="MISIÓN-Y-VISIÓN" className='relative px-6 py-20 text-white md:py-64'>
+      {/* <BackgroundRadialLeft/> */}
       <div className='grid max-w-5xl mx-auto md:grid-cols-2'>
         <div>
           <Reveal>

@@ -12,7 +12,7 @@ import Image from 'next/image'
 export const ChooseYourCards = () => {
   return (
     <div className='relative px-6 py-20 md:py-64' id='tarjetas'>
-      <BackgroundRadialRight/>
+      {/* <BackgroundRadialRight/> */}
       <div className='block max-w-5xl mx-auto md:grid md:grid-cols-2'>
         <Reveal>
           <h2 className='text-5xl font-semibold'>Elige la tarjeta que más
