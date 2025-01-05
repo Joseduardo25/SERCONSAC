@@ -11,12 +11,12 @@ export function Footer() {
       <div className='justify-start md:flex'>
         <div className="md:px-8">
           <Image src="/assets/logo-serconsac-v2.png" width={200} height={40} alt='Logo Bank'/>
-          {/* <Reveal>
+          {/* <Reveal>  
             <p className='mt-5 text-primaryDark max-w-[250px]'>Una nueva forma de hacer pagos de forma sencilla</p>
           </Reveal> */}
         </div>
         {footerData.map(({id, title, links})=>(
-          <div key={id}>
+          <div key={id} className="text-black">
             <h4 className='mt-8 text-lg md:mt-0 pt-3'>
               <Reveal>{title}</Reveal>
             </h4>
@@ -24,7 +24,7 @@ export function Footer() {
               <div 
                 key={id} 
                 // href={link} 
-                className='block mt-4 text-primaryDark hover: text-white'>
+                className='block !text-black mt-4 text-primaryDark hover: text-white'>
                 <Reveal>
                   {name}
                 </Reveal>

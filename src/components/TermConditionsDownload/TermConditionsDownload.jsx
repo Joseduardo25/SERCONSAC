@@ -9,9 +9,9 @@ export function TermsConditionsDownload() {
           download="POLITICA_DE_SST_SERCONSAC_2024.pdf"
           target="_blank" 
           rel="noopener noreferrer"
-          style={{ textDecoration: 'none', color: 'white' }}
+          style={{ textDecoration: 'none', color: 'black' }}
         >
-          Términos y Condiciones
+          Conoce nuestra Política de Seguridad <br/> y Salud en el Trabajo
         </a>.
       </p>
     </div>
