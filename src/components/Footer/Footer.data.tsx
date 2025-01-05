@@ -9,7 +9,7 @@ export const footerData = [
     links: [
       {
         id: 1,
-        name: "cmedina@ogserconsac.com",
+        name: "consultas@ogserconsac.com",
         // link: "#",
       },
       {
