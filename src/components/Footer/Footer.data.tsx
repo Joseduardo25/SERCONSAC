@@ -9,78 +9,68 @@ export const footerData = [
     links: [
       {
         id: 1,
-        name: "(+51) 993 325 074",
-        link: "#",
-      },
-      {
-        id: 2,
-        name: "consultas@ogserconsac.com",
-        link: "#",
-      },
-      {
-        id: 3,
         name: "cmedina@ogserconsac.com",
         link: "#",
       },
       {
-        id: 4,
+        id: 2,
         name: <Office/>,
         link: "#",
       },
       {
-        id: 5,
+        id: 3,
         name: <TermsConditionsDownload/>,
         link: "#",
       },
     ],
   },
-  {
-    id: 2,
-    title: "Comunidad",
-    links: [
-      {
-        id: 1,
-        name: "Centro de ayuda",
-        link: "#",
-      },
-      {
-        id: 2,
-        name: "Partners",
-        link: "#",
-      },
-      {
-        id: 3,
-        name: "Sugerencias",
-        link: "#",
-      },
-      {
-        id: 4,
-        name: "Blog",
-        link: "#",
-      },
-      {
-        id: 5,
-        name: "Newsletter",
-        link: "#",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Partner",
-    links: [
-      {
-        id: 1,
-        name: "Nuestro partner",
-        link: "#",
-      },
-      {
-        id: 2,
-        name: "Hazte partner",
-        link: "#",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   title: "Comunidad",
+  //   links: [
+  //     {
+  //       id: 1,
+  //       name: "Centro de ayuda",
+  //       link: "#",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Partners",
+  //       link: "#",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Sugerencias",
+  //       link: "#",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Blog",
+  //       link: "#",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "Newsletter",
+  //       link: "#",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   title: "Partner",
+  //   links: [
+  //     {
+  //       id: 1,
+  //       name: "Nuestro partner",
+  //       link: "#",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Hazte partner",
+  //       link: "#",
+  //     },
+  //   ],
+  // },
 ];
 
 export const footerSocialNetworks = [
