@@ -41,15 +41,15 @@ export const BestBusiness = () => {
             </h2>
           </Reveal>
           {
-            dataFeaturesBusiness.map(({id, icon, title, description})=>(
+            dataFeaturesBusiness.map(({id, icon, title, description, link})=>(
               <Reveal key={id}>
-                <div className='grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack cursor-pointer'>
+                <a href={link} target='_blank' className='grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack cursor-pointer'>
                   <Image src={`/assets/${icon}.png`} width={40} height={40} alt='Icon'/>
-                  <div className='flex items-center justify-center'>
+                  <div className='flex items-center justify-center' >
                     <h4 className='text-primary'>{title}</h4>
                     {/* <p className='text-primaryDark'>{description}</p> */}
                   </div>
-                </div>
+                </a>
               </Reveal>
             ))
           }
