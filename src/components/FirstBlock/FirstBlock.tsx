@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export const FirstBlock = () => {
   return (
-    <div className='relative p-4 md:py-40'>
+    <div id="SOBRE-NOSOTROS" className='relative p-4 md:py-40'>
       <BackgroundRadialRight/>
       <div className='grid max-w-5xl mx-auto md:grid-cols-2'>
         <div>
@@ -29,8 +29,8 @@ export const FirstBlock = () => {
             </div>
           </Reveal>
         </div>
-        <MotionTransition className='flex items-center justify-center'>
-          <Image src='/assets/pipes-red.png' alt='Card Payment' width={450} height={450} className='h-auto w-72 md:w-full'/>
+        <MotionTransition className='flex items-center justify-center pt-12 md:pt-0 '>
+          <Image src='/assets/pipes-red-v2.png' alt='Card Payment' width={450} height={450} className='h-auto w-72 md:w-full'/>
         </MotionTransition>
       </div>
     </div>

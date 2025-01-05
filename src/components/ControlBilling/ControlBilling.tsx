@@ -5,7 +5,7 @@ import { Reveal } from '../Reveal'
 
 export const ControlBilling = () => {
   return (
-    <div className='p-4 py-20 md:pt-64 md:pb5'>
+    <div id="SERVICIOS" className='p-4 pt-20 pb-5 md:pt-64 md:pb5'>
       <div className='mx-auto flex justify-center mb-8'>
         <Reveal>
           <h2 className='text-5xl font-semibold'>

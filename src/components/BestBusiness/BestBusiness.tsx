@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export const BestBusiness = () => {
   return (
-    <div className='relative px-6 py-20 md:py-64'>
+    <div id="MISIÓN-Y-VISIÓN" className='relative px-6 py-20 md:py-64'>
       <BackgroundRadialLeft/>
       <div className='grid max-w-5xl mx-auto md:grid-cols-2'>
         <div>
@@ -43,7 +43,7 @@ export const BestBusiness = () => {
           {
             dataFeaturesBusiness.map(({id, icon, title, description})=>(
               <Reveal key={id}>
-                <div className='grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack'>
+                <div className='grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack cursor-pointer'>
                   <Image src={`/assets/${icon}.png`} width={40} height={40} alt='Icon'/>
                   <div className='flex items-center justify-center'>
                     <h4 className='text-primary'>{title}</h4>

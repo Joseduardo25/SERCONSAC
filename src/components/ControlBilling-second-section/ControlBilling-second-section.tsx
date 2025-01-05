@@ -6,7 +6,7 @@ import { Reveal } from '../Reveal'
 export const ControlBillingSecondSection = () => {
   return (
     <div className='p-4 py-5 md:pt-5 md:pb-5'>
-      <div className='flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly'>
+      <div className='flex flex-col md:flex-row max-w-5xl mx-auto md:flex-row place-content-evenly'>
         <div className='flex-1 p-6 md:p-8'>
           <Reveal>
             <h2 className='text-3xl font-semibold'>
