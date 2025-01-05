@@ -18,8 +18,10 @@ export default function Home() {
     <>
       <Header/>
       <FirstBlock/>
-      <CounterData/>
-      <BestBusiness/>
+      <div className="bg-black">
+        <CounterData/>
+        <BestBusiness/>
+      </div>
       {/* <ChooseYourCards/> */}
       <ControlBilling/>
       <ControlBillingSecondSection/>
