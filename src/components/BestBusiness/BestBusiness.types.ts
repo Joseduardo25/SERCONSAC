@@ -3,5 +3,6 @@ export type BestBusinessData = {
   icon: string,
   title: string,
   description: string,
-  link: string
+  link: string,
+  image:string
 }[]
