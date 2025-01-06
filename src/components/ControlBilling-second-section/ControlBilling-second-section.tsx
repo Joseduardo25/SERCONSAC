@@ -10,19 +10,19 @@ export const ControlBillingSecondSection = () => {
         <div className='flex-1 p-6 md:p-8'>
           <Reveal>
             <h2 className='text-3xl font-semibold'>
-              PRUEBAS DE ACEPTACION DE SCI
+            PRUEBAS DE ACEPTACIÓN DE SISTEMAS CONTRA INCENDIOS
             </h2>
           </Reveal>
           <Reveal>
             <p className='max-w-md mt-10'>
-              Con la tarjeta de crédito adecuada, puede mejorar su vida financiera 
-              generando crédito, obteniendo recompensas y ahorrando dinero. Pero 
-              con cientos de tarjetas de crédito en el mercado
+            Realizamos las pruebas de aceptación en presencia de la autoridad competente para su 
+            aprobación. Contamos con amplia experiencia en este tipo de pruebas y logramos el objetivo 
+            de nuestros clientes con pruebas satisfactorias de sus sistemas contra incendios.
             </p>
           </Reveal>
         </div>
         <MotionTransition className='flex-1 p-6 md:p-8'>
-          <Image src='/assets/acceptance-tests.png' width={580} height={411} alt='Control billing' className='w-full h-auto'/>
+          <Image src='/assets/acceptance-tests-v2.png' width={300} height={187} alt='Control billing' className='w-full h-auto'/>
         </MotionTransition>
       </div>
     </div>

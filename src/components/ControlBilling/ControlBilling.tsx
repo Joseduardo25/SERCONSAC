@@ -16,21 +16,21 @@ export const ControlBilling = () => {
       <div className='flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly'>
         
       <MotionTransition className='flex-1 p-6 md:p-8'>
-          <Image src='/assets/ipm-system.png' width={580} height={411} alt='Control billing' className='w-full h-auto'/>
+          <Image src='/assets/ipm-system-v2.png' width={300} height={187} alt='Control billing' className='w-full h-auto'/>
         </MotionTransition><div className='flex-1 p-6 md:p-8'>
           <Reveal>
             <h2 className='text-3xl font-semibold'>
-              IPM SISTEMAS CONSTRA 
+            INSPECCION, MANTENIMIENTO Y PRUEBA 
               <span className='block'>
-                INCENDIOS-NFPA 25
+              DE SISTEMA CONTRA INCENDIOS
               </span>
             </h2>
           </Reveal>
           <Reveal>
             <p className='max-w-md mt-10'>
-              Con la tarjeta de crédito adecuada, puede mejorar su vida financiera 
-              generando crédito, obteniendo recompensas y ahorrando dinero. Pero 
-              con cientos de tarjetas de crédito en el mercado
+            Nos encargamos de todas las labores de IPM de sistemas contra incendios 
+            en base a agua y espuma conforme lo establecido en la normativa nacional 
+            vigente, NFPA 25 y manuales de los fabricantes de cada sistema y/o equipo.
             </p>
           </Reveal>
         </div>
