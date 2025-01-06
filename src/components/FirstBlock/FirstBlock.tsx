@@ -30,7 +30,7 @@ export const FirstBlock = () => {
           </Reveal> */}
         </div>
         <MotionTransition className='flex items-center justify-center pt-12 md:pt-0 '>
-          <Image src='/assets/pipes-red-v2.png' alt='Card Payment' width={450} height={450} className='h-auto w-72 md:w-full'/>
+          <Image src='/assets/pipes-red-v2.png' alt='Card Payment' width={450} height={450} className='h-auto w-auto md:w-full px-6 md:p-0'/>
         </MotionTransition>
       </div>
     </div>
