@@ -15,7 +15,6 @@ export const dataCounter = [
     id: 3,
     startNumber: 600,
     endNumber: 1000,
-    // text: 'Trabajamos con las principales refinerías de hidrocarburos del país',
     text: 'Trabajamos con las principales refinerías del Perú',
   }
 ]

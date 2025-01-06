@@ -14,14 +14,14 @@ export const CtaDark = () => {
             <Reveal>
               <p className='md:mt-6'>
                 Realizamos de forma satisfactoria las pruebas de aceptación de SCI de todas las unidades de proceso y 
-                auxiliares de la nueva refinería de Talara. Gracias a nuestro cliente Petro Perú por confiar en nuestro trabajo.
+                auxiliares de la nueva refinería de Talara. Gracias a nuestro cliente Petroperú por confiar en nuestro trabajo.
               </p>
             </Reveal>
           </div>
           {/* <Link href='#' className='px-4 py-3  mx-auto rounded-md bg-blueRadial'> */}
           <div className='mx-auto md: py-8'>
             <Reveal>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VlbH2mQhdcM?si=dwD4mWY3FQE9f6GK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe className='w-auto h-auto md:w-[560px] md:h-[315px]' src="https://www.youtube.com/embed/VlbH2mQhdcM?si=dwD4mWY3FQE9f6GK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </Reveal>
           </div>
           {/* </Link> */}

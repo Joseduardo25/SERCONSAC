@@ -20,7 +20,7 @@ export const ControlBilling = () => {
         </MotionTransition><div className='flex-1 p-6 md:p-8'>
           <Reveal>
             <h2 className='text-3xl font-semibold'>
-            INSPECCION, MANTENIMIENTO Y PRUEBA 
+            INSPECCION, MANTENIMIENTO Y PRUEBAS
               <span className='block'>
               DE SISTEMA CONTRA INCENDIOS
               </span>

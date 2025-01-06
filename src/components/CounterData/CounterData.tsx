@@ -7,10 +7,10 @@ import './style.css'
 export const CounterData = () => {
 
   return (
-    <MotionTransition className='max-w-5xl py-10 mx-auto md:py-40 '>
+    <MotionTransition className='max-w-5xl py-10 mx-4 md:mx-auto md:py-40 '>
       <div className=' justify-between md:flex'>
         {dataCounter.map(({id, startNumber, endNumber, text})=>(
-          <div key={id} className='py-5 text-2xl text-center text-white flex md:text-left hidden_custom_number'>
+          <div key={id} className='mx-auto py-5 text-2xl text-center text-white justify-center flex md:text-left hidden_custom_number'>
             <div className='text-5xl pr-4 text-center'>
             +
             <CountUp start={startNumber} end={endNumber} duration={2} enableScrollSpy/>
