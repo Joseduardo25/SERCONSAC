@@ -33,7 +33,7 @@ export function PaymentsMethods() {
                     }}
                     grabCursor={true}
                     loop={true}
-                    speed={2000}
+                    speed={3000}
                 >
                     <div className="absolute flex">
                         {CustomerData.map(({ id, image }) => (
